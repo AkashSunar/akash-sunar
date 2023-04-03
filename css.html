@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1> TEJ Application Project</h1>
+    
+    <div>
+        <hr width="100%" color="grey">
+        
+    </div>
+    <div class="samosa">
+        <h3>Samosa</h3>
+        <p1>price:</p1><input type="number" class="samosa-price"></div>
+        <p1>Quantity:</p1><button id="samosaPlus" class="plus-button" onClick="incrementSamosa()">+</button><span class="samosaQty">1</span><button id="samosaMinus" class="plus-button" onClick="decrementSamosa()">-</button><br>
+        <p1>Total: <span class="samosaTotal">1</span></p1>
+        <hr width="100%" color="grey">
+
+   <div class="tea">
+    <h3>Tea</h3>
+    <p1>price:</p1><input type="number" class="tea-price"></div>
+    <p1>Quantity:</p1><button id="teaPlus" class="plus-button" onClick="incrementTea()">+</button><span class="teaQty">1</span><button id="teaMinus" class="plus-button" onClick="decrementTea()">-</button><br>
+    <p1>Total: <span class="teaTotal">0</span></p1>
+    <hr width="100%" color="grey">
+    <div class="tea">
+        <p1>Totalprice: <span id="totalPrice">0</span></p1><br>
+        <p1>Vat(13%)</p1> <span id="vat">0</span> <br>
+        <p1>Tip(10%): <span id="tip">0</span></p1> 
+        <hr width="100%" color="grey"> 
+    </div>
+    <div class="total">
+         <p1>Grand Total: <span id="grandTotal">0</span> </p1><br>
+         <button class="plus-button" onclick="calcTotal()">Calculate grand total </button>
+    </div>
+    </div>
+    
+</div>
+<script src="./js/script.js"></script>
+</body>
+</html>

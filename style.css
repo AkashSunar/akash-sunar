@@ -1,0 +1,14 @@
+
+.box{
+    background-color: aqua;
+    text-align: center;
+    width: 28%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-radius: 8px;
+    /* margin-left: 360px; */
+}
+h1{
+      color: red;
+}
